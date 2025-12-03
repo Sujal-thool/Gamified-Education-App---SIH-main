@@ -1,0 +1,25 @@
+{
+  "name": "nexora-environmental-education",
+  "version": "1.0.0",
+  "description": "Gamified Environmental Education Platform",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "dev": "concurrently \"cd backend && npm run demo\" \"cd frontend && npm run dev\"",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": [
+    "environmental",
+    "education",
+    "gamification",
+    "react",
+    "nodejs"
+  ],
+  "author": "Nexora Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

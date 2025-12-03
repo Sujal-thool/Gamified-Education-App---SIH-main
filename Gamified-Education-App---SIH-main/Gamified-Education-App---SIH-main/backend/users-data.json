@@ -1,0 +1,60 @@
+[
+    {
+        "id": "1",
+        "name": "Admin User",
+        "email": "admin@nexora.com",
+        "role": "admin",
+        "points": 0,
+        "badges": []
+    },
+    {
+        "id": "2",
+        "name": "Teacher One",
+        "email": "teacher1@nexora.com",
+        "role": "teacher",
+        "points": 0,
+        "badges": []
+    },
+    {
+        "id": "3",
+        "name": "Student One",
+        "email": "student1@nexora.com",
+        "role": "student",
+        "points": 150,
+        "badges": [
+            {
+                "name": "Eco Warrior",
+                "description": "Completed 5 environmental tasks"
+            },
+            {
+                "name": "Quiz Master",
+                "description": "Scored 90% or higher on 3 quizzes"
+            }
+        ],
+        "streak": 5,
+        "lastStreakDate": "2023-01-01",
+        "gameHistory": {}
+    },
+    {
+        "id": "4",
+        "name": "Student Two",
+        "email": "student2@nexora.com",
+        "role": "student",
+        "points": 120,
+        "badges": [],
+        "streak": 3,
+        "lastStreakDate": "2023-01-01",
+        "gameHistory": {}
+    },
+    {
+        "id": "5",
+        "name": "Student Three",
+        "email": "student3@nexora.com",
+        "role": "student",
+        "points": 200,
+        "badges": [],
+        "streak": 10,
+        "lastStreakDate": "2023-01-01",
+        "gameHistory": {}
+    }
+]
